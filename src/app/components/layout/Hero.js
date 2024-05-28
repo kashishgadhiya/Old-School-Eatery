@@ -16,7 +16,7 @@ export default function Hero() {
 
                     <p className=' text-gray-500 mt-6 '>
 
-                        At Old School Eatery, we believe that life is too short to have a dull moment. That's why we've crafted a menu that takes you back to the good old days while offering a modern twist. Whether you're in the mood for a nostalgic meal that reminds you of home or a cozy spot to relax and unwind, we've got you covered.</p>
+                        At Old School Eatery, we believe that life is too short to have a dull moment. That&apos;s why we&apos;ve crafted a menu that takes you back to the good old days while offering a modern twist. Whether you&apos;re in the mood for a nostalgic meal that reminds you of home or a cozy spot to relax and unwind, we&apos;ve got you covered.</p>
                     <p className=' text-gray-500 my-2 hidden md:block'> Every bite of our hearty dishes, every sip of our signature drinks, and every conversation with friends is a chance to elevate your everyday experience. Why settle for a dull moment when you can have an unforgettable one? Join us at Old School Eatery, where every moment is a delightful journey through time.</p>
                         </div>
                     {/* buttons */}

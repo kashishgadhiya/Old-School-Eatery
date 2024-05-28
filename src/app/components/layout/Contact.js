@@ -10,7 +10,7 @@ export default function Contact(){
     return (
 <section id="contact">
         <div className="text-center">
-          <h3 className="uppercase text-gray-400 font-semibold">Don't hesitate</h3>
+          <h3 className="uppercase text-gray-400 font-semibold">Don&apos;t hesitate</h3>
           <h2 className="font-bold text-4xl">Contact us</h2>
         </div>
        

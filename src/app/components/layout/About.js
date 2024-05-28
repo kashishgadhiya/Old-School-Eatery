@@ -8,7 +8,7 @@ export default function About() {
         </div>
         <div className="text-gray-600   mt-6 max-w-2xl flex mx-auto flex-col gap-4 text-2xl ">
           <p>
-            Welcome to Old School Eatery, Baroda's first open kitchen
+            Welcome to Old School Eatery, Baroda&apos;s first open kitchen
             restaurant, bringing you a unique blend of nostalgic flavors and
             modern infrastructure at our Alkapuri and Majalpur locations. We
             offer an extensive variety of all-Indian dishes, each meticulously
