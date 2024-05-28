@@ -17,7 +17,7 @@ export default function Contact(){
         <div className="flex gap-20 px-5 m-10 flex-wrap mx-auto">
          
             {/* talk to us  */}
-            <div className="px-10  sm:mx-auto">
+            <div className="px-10  mx-auto">
                 <h5 className="font-semibold text-2xl text-gray-500 py-5 ">Talk to us </h5>
                 <div className="flex gap-2 justify-center items-center  p-3  ">
                 <Phone />
@@ -35,7 +35,7 @@ export default function Contact(){
 
             </div>
             {/* address */}
-            <div >
+            <div  className="mx-auto">
 
             <h5 className="font-semibold text-2xl text-gray-500 py-5">Old School Eatery</h5>
              <div >

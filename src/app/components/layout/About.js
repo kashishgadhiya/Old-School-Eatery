@@ -7,7 +7,7 @@ export default function About() {
           <h2 className="font-bold text-4xl">About us</h2>
         </div>
         <div className="text-gray-600   mt-6 max-w-2xl flex mx-auto flex-col gap-4 text-2xl ">
-          <p>
+          <p className="mx-auto px-5 pt-5">
             Welcome to Old School Eatery, Baroda&apos;s first open kitchen
             restaurant, bringing you a unique blend of nostalgic flavors and
             modern infrastructure at our Alkapuri and Majalpur locations. We
@@ -15,7 +15,7 @@ export default function About() {
             crafted by our expert chefs to provide you with an unparalleled
             dining experience.
           </p>
-          <p>
+          <p className="pt-5 px-5">
             Enjoy our delicious creations in a peaceful environment with your
             family and friends, or savor them at home. At Old School Eatery, we
             are dedicated to serving old school vibes with a contemporary twist,

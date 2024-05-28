@@ -12,14 +12,14 @@ export default function Photos(){
 return(
     <>
   <section className=" mx-auto  my-20 picsection">
-    <div className="flex gap-4 items-center justify-center " >
+    <div className="flex lg:gap-4 gap-2 items-center justify-center " >
 
-<div className="flex flex-col gap-2 ">
+<div className="flex flex-col lg:gap-2 gap-1 ">
 
     <Image src={one} alt={'image'} height={500}  className="imghover"></Image>
     <Image src={five} alt={'image'} width={400} className="imghover"></Image>
 </div>
-<div className="flex flex-col gap-2 imghover">
+<div className="flex flex-col lg:gap-2 gap-1 imghover">
 
     <Image src={eight} alt={'image'} height={200} className="imghover"></Image>
     <Image src={four} alt={'image'} height={500}className="imghover" ></Image>
@@ -27,12 +27,12 @@ return(
 
     
 </div>
-<div className="flex flex-col gap-2">
+<div className="flex flex-col lg:gap-2 gap-1">
 
     <Image src={nine} alt={'image'} width={300} className="imghover"></Image>
     <Image src={seven} alt={'image'} width={300} className="imghover"></Image>
 </div>
-<div className="flex flex-col gap-2">
+<div className="flex flex-col lg:gap-2 gap-1">
 
     <Image src={ten} alt={'image'} width={300} className="imghover"></Image>
     <Image src={two} alt={'image'}  width={300} className="imghover"></Image>
