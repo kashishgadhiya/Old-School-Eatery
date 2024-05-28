@@ -5,7 +5,6 @@ import pizza_2 from "../../../assets/trio_piiza.jpg"
 import pizza_3 from "../../../assets/veggi_pizza.jpg"
 import pizza_4 from "../../../assets/verdure_pizza.jpg"
 import pizza_5 from "../../../assets/menu_pizza.jpg"
-import Link from "next/link";
 
 export default function MenuPage() {
     return (

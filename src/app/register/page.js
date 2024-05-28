@@ -80,14 +80,7 @@ export default function RegsiterPage() {
           <div className="my-4 text-center text-gray-600">
             or login with provider
           </div>
-          {/*           
-                <button    type = "button" className="block w-full text-gray-700 font-semibold
- border border-gray-400 rounded-xl px-6 py-2 mt-3 flex justify-center items-center gap-4">
-                  <Image src={google} height={32} width={24} alt='logwith google' onClick={()=> signIn('google',{callbackUrl:'/'})}
-                  
-                  
-                  ></Image>  Login with Google
-                </button> */}
+      
           <button
             type="button"
             className="block w-full text-gray-700 font-semibold

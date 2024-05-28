@@ -1,6 +1,5 @@
 // Import the MongoClient and ServerApiVersion from mongodb package
 import { MongoClient, ServerApiVersion } from "mongodb"
-require('dotenv').config();
 
 
 // Check if the MONGO_URL environment variable is set

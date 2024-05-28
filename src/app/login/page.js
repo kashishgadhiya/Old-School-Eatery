@@ -38,7 +38,7 @@ export default function LoginPage() {
           className="block w-full text-gray-700 font-semibold
           border border-gray-400 rounded-xl px-6 py-2 mt-3 flex justify-center items-center gap-4"
           onClick={() => signIn('google', {callbackUrl: '/'})}>
-            <Image src={google} alt={''} width={24} height={24} />
+            <Image src={google} alt={'googleimg'} width={24} height={24} />
             Login with google
           </button>
         </form>
