@@ -12,7 +12,7 @@ export default function Hero() {
                     <h1 className='md:text-3xl font-semibold leading-1  '>Nostalgic Dining  <br></br>with a
                         Modern Twist</h1>
                         
-                        <div className=' '>
+                        <div>
 
                     <p className=' text-gray-500 mt-6 '>
 
