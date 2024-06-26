@@ -8,11 +8,14 @@ Frontend: Developed using Next.js for efficient server-side rendering and client
 Authentication: Implemented with NextAuth.js for secure user authentication, including Google login capabilities.
 Database: MongoDB stores essential information such as restaurant details, user profiles, and menu items.
 Styling: Tailwind CSS ensures a responsive and visually appealing user interface.
+
+
 🍽️ Features:
 
 User Profiles: Registered users can view and edit their profiles, including personal details and profile photos.
 Admin Dashboard: Admins have access to additional tabs for managing categories, users, and orders, facilitating efficient restaurant management.
 Restaurant Management: Includes sections for restaurant details, contact information, photos, and menu updates, ensuring comprehensive control over the establishment's online presence.
+
 🚀 Getting Started:
 
 Clone the repository.
