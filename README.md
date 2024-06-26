@@ -17,6 +17,9 @@ Restaurant Management: Includes sections for restaurant details, contact informa
 
 Clone the repository.
 Install dependencies using npm install.
+
 Set up MongoDB and configure environment variables.
+
 Deploy on Vercel for seamless hosting and continuous deployment.
+
 🎉 Dive into this project to explore Next.js, NextAuth.js, and MongoDB integration while building a versatile restaurant management system. Contributions and feedback are welcomed to enhance this project further!
