@@ -60,8 +60,8 @@
 
 
 
-import User from "@/app/models/User"; // Ensure this model is correctly defined
-import clientPromise from "@/libs/mongoConnect"; // Ensure this file initializes and exports the MongoDB client promise
+import User from "@/app/models/User";
+import clientPromise from "@/libs/mongoConnect";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import bcrypt from 'bcrypt';
 import * as mongoose from 'mongoose';
@@ -89,8 +89,8 @@ export const authOptions = {
       async authorize(credentials) {
         try {
           const { email, password } = credentials;
-          await mongoose.connect(process.env.MONGO_URL); // Ensure connection is established
-          
+          await mongoose.connect(process.env.MONGO_URL);
+
           const user = await User.findOne({ email });
 
           if (user && bcrypt.compareSync(password, user.password)) {

@@ -65,20 +65,19 @@ export default function LoginPage() {
   async function handleFormSubmit(ev) {
     ev.preventDefault();
     setLoginInProgress(true);
-    setError(''); // Clear previous errors
+    setError('');
 
     try {
       const result = await signIn('credentials', {
         email,
         password,
         callbackUrl: '/',
-        redirect: false, // Prevent automatic redirection
+        redirect: false,
       });
 
       if (result.error) {
         setError(result.error);
       } else if (result.ok) {
-        // Redirect manually if login is successful
         window.location.href = '/';
       }
     } catch (error) {
