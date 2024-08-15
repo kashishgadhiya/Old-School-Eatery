@@ -51,6 +51,7 @@ export default function  Header(){
         <>
     <header className=" ">
          {/* for mobilelogo */}
+   
       <div className=" flex md:hidden   justify-between items-center">
     <Link href={"/"}><Image src={logo}  alt="logo" height={100}className="md:w-10"></Image></Link>
     <button className="border p-2" onClick={() =>setMobileNav(prev => !prev)}>
@@ -76,7 +77,7 @@ onClick={()=>setMobileNav(false)}
     )
   }
 
-
+{/* -------------------------- */}
 
     {/* nav bar */}
     
