@@ -38,6 +38,8 @@ export const authOptions = {
       
         if (user && bcrypt.compareSync(password, user.password)) {
           return user;
+        }else{
+          
         }
 
         return null;
